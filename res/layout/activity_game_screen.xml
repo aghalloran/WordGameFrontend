@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/top_bar">
+        <ImageButton 
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/back_icon"
+            android:onClick="goBack"/>
+    </FrameLayout>
+    
+    <ScrollView 
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+        
+        <LinearLayout 
+            android:id="@+id/game_screen_container"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>   

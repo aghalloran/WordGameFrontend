@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/background">
+    
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="255dp"
+        android:layout_height="170dp"
+        android:src="@drawable/title_first_thought"/>
+
+    <ImageView 
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:src="@drawable/first_thought_menu_1_top"/>
+
+    <ImageButton 
+        android:contentDescription="@string/login_button_facebook"
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/first_thought_menu_2_facebook"
+    	android:onClick="loginWithFacebook"        
+        />
+
+    <ImageButton 
+        android:contentDescription="@string/login_button_email"
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/first_thought_menu_3_email"
+    	android:onClick="loginWithEmail"        
+        />
+    
+    <ImageButton 
+        android:contentDescription="@string/login_button_anonymous"
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/first_thought_menu_4_anonymous"
+    	android:onClick="loginWithAnonymous"        
+        />
+
+    <ImageView 
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:src="@drawable/first_thought_menu_5_bottom"/>    
+    
+</LinearLayout>

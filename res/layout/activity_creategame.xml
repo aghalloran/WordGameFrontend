@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/background">
+
+    <ImageView 
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:src="@drawable/create_game_menu_0_top"/>
+
+    <ImageButton 
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/create_game_menu_1_facebook"
+    	android:onClick="createGameWithFacebook"        
+        />
+
+    <ImageButton 
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/create_game_menu_2_usernames"
+    	android:onClick="createGameWithUsernames"        
+        />
+    
+    <ImageButton 
+        android:layout_width="275dp"
+    	android:layout_height="61dp"
+    	android:background="@drawable/create_game_menu_3_anonymous"
+    	android:onClick="createGameWithRandomOpponents"        
+        />
+
+    <ImageView 
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:src="@drawable/first_thought_menu_5_bottom"/>
+</LinearLayout>
